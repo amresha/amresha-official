@@ -76,14 +76,14 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-mailchimp',
       options: {
-          endpoint: 'https://ardalis.us13.list-manage.com/subscribe/post?u=ddf5f72371bc4c837a6667f27&amp;id=40af84bfa3', 
+          endpoint: 'https://netlify.us10.list-manage.com/subscribe/post?u=aaa310ff8abcc9c55ae8f77a5&amp;id=aab1dc9051', 
       },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // edit below
-        // trackingId: `ADD YOUR TRACKING ID HERE`,
+         trackingId: ``,
       },
     },
     {
