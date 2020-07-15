@@ -4,7 +4,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import '../templates/blog-style.css'
-import Testinomials from "../components/testinomials"
+import Testinomials from "../components/Testinomials"
 import Mailchimp from "../components/Mailchimp"
 import Fade from 'react-reveal/Fade'
 import Flip from 'react-reveal/Flip'

@@ -2,14 +2,13 @@ import React from "react"
 import { Link } from "gatsby"
 import 'bulma/css/bulma.css'
 
-import Testinomials from "../components/testinomials"
-import Mailchimp from "../components/Mailchimp"
+import Testinomials from "../components/Testinomials"
+import Mailchimp from "../components/MailChimp"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Button from "../components/button"
 import Typist from 'react-typist';
 import Flip from 'react-reveal/Flip';
-import Tada from 'react-reveal/Tada';
 import Fade from 'react-reveal/Fade';
 import './main.scss'
 import '../templates/blog-style.css'
