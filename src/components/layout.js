@@ -1,6 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
+import NavBar from "./Navbar"
+import { Helmet } from "react-helmet"
+
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -28,48 +31,59 @@ class Layout extends React.Component {
             }}
             to={location.pathname === blogPath ? `/blog/` : `/`}
           >
-            {title}
+           
           </Link>
         </h1>
       )
     } else {
       header = (
         <h3
-          style={{
-            fontFamily: `Montserrat, sans-serif`,
-            marginTop: 0,
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/blog/`}
-          >
-            {title}
-          </Link>
+          class="header-h3"
+        >         
+           
+   
         </h3>
       )
     }
     return (
       <Wrapper>
+        <Helmet>
+        <link
+          href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+          rel="stylesheet"
+        />
+        <script
+    dangerouslySetInnerHTML={{
+       __html:`
+       var flkty = new Flickity( '.main-gallery', {
+           cellAlign: 'left',
+           contain: true,
+           wrapAround: true,
+           prevNextButtons: false,
+           autoPlay: 5000
+         });
+       `
+    }}
+    />,
+        <link rel="stylesheet" 
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        </Helmet>
         <div
-          style={{
-            marginLeft: `auto`,
-            marginRight: `auto`,
-            maxWidth: rhythm(24),
-            padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-          }}
-        >
+         
+        ><NavBar />
           <header>{header}</header>
+          
           <main>{children}</main>
         </div>
         <Footer>
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <span role="img" aria-label="heart emoji">
+          ❤️
+            </span>
         </Footer>
       </Wrapper>
     )
@@ -78,7 +92,7 @@ class Layout extends React.Component {
 
 const Wrapper = styled.div`
   min-height: 100vh;
-`
+ `
 
 const Footer = styled.footer`
   text-align: center;

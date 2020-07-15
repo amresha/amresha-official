@@ -1,21 +1,26 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Gatsby Starter Personal Blog`,
-    author: `Gatsby`,
+    title: `Amresha | A Frontend Engineer`,
+    author: `Amresha`,
     description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
-      twitter: `gatsbyjs`,
+      twitter: `amreshabux`,
     },
   },
   plugins: [
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-styled-components`,
+    `gatsby-plugin-fontawesome-css`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
+    `gatsby-plugin-material-ui`,
     `gatsby-plugin-react-helmet`,
+    `react-images`,
+    'gatsby-plugin-scss-typescript',
+    'react-native-animatable',
     `gatsby-plugin-feed-mdx`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -29,6 +34,13 @@ module.exports = {
       options: {
         path: `${__dirname}/content/assets`,
         name: `assets`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `gallery`,
+        path: `${__dirname}/src/images/gallery`,
       },
     },
     {
@@ -62,6 +74,12 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+          endpoint: 'https://ardalis.us13.list-manage.com/subscribe/post?u=ddf5f72371bc4c837a6667f27&amp;id=40af84bfa3', 
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // edit below
@@ -78,8 +96,14 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         // edit below
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/amresha-icon.png`,
       },
+    },
+    {
+      resolve: `react-typist`,
+      options: {
+        blink: true,
+      }, 
     },
     {
       resolve: `gatsby-plugin-typography`,

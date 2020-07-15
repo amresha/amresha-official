@@ -1,7 +1,8 @@
 backend:
   name: github
-  repo: thomaswang/gatsby-personal-starter-blog
-
+  repo: amresha/amresha-official
+  
+publish_mode: editorial_workflow
 media_folder: content/assets
 public_folder: ../assets
 
@@ -15,4 +16,5 @@ collections:
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - { name: description, label: Description }
+      - { name: featuredimage, label: Featured Image, widget: image }
       - { name: body, label: Body, widget: markdown }
