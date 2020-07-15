@@ -52,19 +52,7 @@ class Layout extends React.Component {
           href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
           rel="stylesheet"
         />
-        <script
-    dangerouslySetInnerHTML={{
-       __html:`
-       var flkty = new Flickity( '.main-gallery', {
-           cellAlign: 'left',
-           contain: true,
-           wrapAround: true,
-           prevNextButtons: false,
-           autoPlay: 5000
-         });
-       `
-    }}
-    />,
+       
         <link rel="stylesheet" 
         href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
 
