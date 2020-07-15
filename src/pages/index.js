@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import 'bulma/css/bulma.css'
 
 import Testinomials from "../components/Testinomials"
-import Mailchimp from "../components/MailChimp"
+import MailChimp from "../components/MailChimp"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Button from "../components/button"
@@ -250,7 +250,7 @@ for (let i = 4; i < 18; i++) {
       
         <div class="tile is-5 is-parent" style={{ alignSelf: 'center', verticalAlign: 'middle'}}>
           <article class="tile is-child gold post">
-          <Fade bottom><Mailchimp /> </Fade>
+          <Fade bottom><MailChimp /> </Fade>
           </article>
         </div>
       </div>    
