@@ -30,14 +30,10 @@ const Gallery = props => {
             edges {
               node {
                 childImageSharp {
-                  original {
-                    width
-                    height
-                  }
-                  fluid {
+                  
+                  fluid(maxHeight: 900) {
                     ...GatsbyImageSharpFluid
-                    originalName
-                    originalImg
+                    presentationWidth
                   }
                 }
               }
