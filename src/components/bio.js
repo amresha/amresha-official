@@ -34,7 +34,7 @@ function Bio() {
               }}
             />
             <p>
-            <strong>{author}</strong> is an experienced front-end developer and a web consultant, currently focusing on  <strong>JAMSTACK</strong> and  <strong>ReactJS</strong> powered websites.           {` `}
+            <strong>{author}</strong> is an experienced front-end engineer and a web consultant, currently focusing on  <strong>JAMSTACK</strong> and  <strong>ReactJS</strong> powered websites.           {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
                 Follow me on Twitter
               </a>
