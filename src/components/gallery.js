@@ -26,7 +26,7 @@ const Gallery = props => {
     <StaticQuery
       query={graphql`
         query allImgQuery {
-          source:  allFile (filter: {absolutePath: {regex: "E:/amresha/amresha/src/images/gallery/"}}) {
+          source:  allFile (filter: {absolutePath: {regex: "./src/images/gallery/"}}) {
             edges {
               node {
                 childImageSharp {
