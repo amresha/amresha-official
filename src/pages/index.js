@@ -227,10 +227,10 @@ for (let i = 4; i < 18; i++) {
         </div>
       </div>
 
-        
+        <Flip top>
         <div  class="columns is-mobile is-vcentered" style={{ paddingTop: '10px', paddingBottom: '10px', backgroundColor: 'whitesmoke'}}>
-        <div class="column is-12"><Testinomials /></div>
-        </div>
+        <div class="column is-12"> <Testinomials /></div>
+        </div></Flip>
      
         <div  class="columns is-mobile is-vcentered">
         <div class="column is-12">
