@@ -191,7 +191,7 @@ for (let i = 4; i < 18; i++) {
                     <div class="column is-12 is-centered" style={{ color:'white', textAlign: 'center'}}><h2 class="title is-6"><img style={{ margin: 0, height: '42px' }} src="./Contentful.png" alt="Contentful" /> </h2></div>
                     </div>
                     <div class="columns is-mobile is-centered is-vcentered">
-                    <div class="column is-12 is-centered" style={{ color:'white', textAlign: 'center'}}><h2 class="title is-6"><img style={{ margin: 0, height: '42px' }} src="./WordPress.png" alt="WordPress" /> </h2></div>
+                    <div class="column is-12 is-centered" style={{ color:'white', textAlign: 'center'}}><h2 class="title is-6"><img style={{ margin: 0, height: '42px' }} src="./WordPress.png" alt="WordPress" /> </h2><br /></div>
                     </div>
                     
                  </div>

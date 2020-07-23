@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import Carousel from 'react-elastic-carousel';
 import Item from "./Item";
-  
+import ardalis from "../../static/ardalis.jpg"
+import adam from "../../static/adam.jpg"
+import magdalena from "../../static/magdalena.jpg"
 
 export default class Testinomials extends React.Component {
     state = {
@@ -23,24 +25,27 @@ render() {
         <Item><div class="gallery-cell">
         <div class="gallery-cell">
            <div class="testimonial">
-        <img class="testimonial-avatar" src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" alt="new"/>
-      <q class="testimonial-quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</q>
-      <span class="testimonial-author">Joe Smith, CEO of Cubix</span>
+        <img class="testimonial-avatar" src={ardalis} alt="ardalis"/>
+      <q class="testimonial-quote">I've been very happy with Amresha's work on migrating my blog from WordPress to JAMSTACK which was a non-trivial task involving over 2000 pages</q>
+      <span class="testimonial-author">Steve Smith, CEO of ASPSmith, Ltd - Chicago, USA</span>
+      <span><a class="testimonial-link" href="https://www.ardalis.com/">www.ardalis.com</a></span>
     </div>
     </div>
   </div></Item>
         <Item><div class="gallery-cell">
      <div class="testimonial">
-        <img class="testimonial-avatar" src="https://s3.amazonaws.com/uifaces/faces/twitter/chexee/128.jpg" />
-      <q class="testimonial-quote">"Fusce vitae rutrum nulla."</q>
-      <span class="testimonial-author">Lisa Jones, Freelance Web Developer</span>
+        <img class="testimonial-avatar" src={adam} alt="adam"/>
+      <q class="testimonial-quote">I would highly recommend Amresha, she did wonderful job in building my multilingual eStore. Every task that was put before her was completed quickly and with an acute attention to detail.</q>
+      <span class="testimonial-author">Adam Cotorceanu, CEO of Dirty Roots - Berlin, Germany</span>
+      <span><a  class="testimonial-link" href="https://www.dirtyrootsberlin.com/">www.dirtyrootsberlin.com</a></span>
     </div>
   </div></Item>
         <Item><div class="gallery-cell">
         <div class="testimonial">
-        <img class="testimonial-avatar" src="https://s3.amazonaws.com/uifaces/faces/twitter/andretacuyan/128.jpg" />
-      <q class="testimonial-quote">"Duis mauris ex, gravida ut leo eu, rhoncus porta orci."</q>
-      <span class="testimonial-author">Ryan Waltz, Front-End Developer</span>
+        <img class="testimonial-avatar" src={magdalena} alt="magdalena"/>
+      <q class="testimonial-quote">Duis mauris ex, gravida ut leo eu, rhoncus porta orci.</q>
+      <span class="testimonial-author">Magdalena Gırlangıç, CEO of Madado ART - Istanbul, Turkey</span>
+      <span><a class="testimonial-link" href="https://www.etsy.com/shop/MadadoART">www.etsy.com/shop/MadadoART</a></span>
     </div>
   </div></Item>
 
