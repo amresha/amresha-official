@@ -9,6 +9,7 @@ import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 import styled from "styled-components"
+import bioImg from "../../static/amresha-icon.png"
 
 import { rhythm } from "../utils/typography"
 
@@ -20,18 +21,18 @@ function Bio() {
         const { author, social } = data.site.siteMetadata
         return (
           <Container>
-            <Image
-              fixed={data.avatar.childImageSharp.fixed}
+            <img
+              src={bioImg}
               alt={author}
               style={{
                 marginRight: rhythm(1 / 2),
                 marginBottom: 0,
-                minWidth: 50,
+                minWidth: 75,
                 borderRadius: `100%`,
+                width: `4%`,
+                height: 'auto',
               }}
-              imgStyle={{
-                borderRadius: `50%`,
-              }}
+              
             />
             <p>
             <strong>{author}</strong> is an experienced front-end engineer and a web consultant, currently focusing on  <strong>JAMSTACK</strong> and  <strong>ReactJS</strong> powered websites.           {` `}
@@ -48,13 +49,7 @@ function Bio() {
 
 const bioQuery = graphql`
   query BioQuery {
-    avatar: file(absolutePath: { regex: "/amresha-icon.png/" }) {
-      childImageSharp {
-        fixed(width: 50, height: 50) {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
+
     site {
       siteMetadata {
         author

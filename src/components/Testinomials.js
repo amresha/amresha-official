@@ -35,7 +35,7 @@ render() {
         <Item><div class="gallery-cell">
      <div class="testimonial">
         <img class="testimonial-avatar" src={adam} alt="adam"/>
-      <q class="testimonial-quote">I would highly recommend Amresha, she did wonderful job in building my multilingual eStore. Every task that was put before her was completed quickly and with an acute attention to detail.</q>
+      <q class="testimonial-quote">Amresha did wonderful job in building my multilingual eStore. Every task that was put before her was on time and with an acute attention to detail.</q>
       <span class="testimonial-author">Adam Cotorceanu, CEO of Dirty Roots - Berlin, Germany</span>
       <span><a  class="testimonial-link" href="https://www.dirtyrootsberlin.com/">www.dirtyrootsberlin.com</a></span>
     </div>

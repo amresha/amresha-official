@@ -28,6 +28,8 @@ class Blog extends React.Component {
         
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
+            const featuredImg = node.frontmatter.featuredimage
+
             const postDate = new Date(node.frontmatter.date)
             const month= postDate.toLocaleString('default', { month: 'short' })
             const day= postDate.toLocaleString('default', { day: '2-digit' })
@@ -35,7 +37,7 @@ class Blog extends React.Component {
             return (
               
               <div class="card">
-              <div class="thumbnail"><img class="left" src="https://cdn2.hubspot.net/hubfs/322787/Mychefcom/images/BLOG/Header-Blog/photo-culinaire-pexels.jpg"/></div>
+              <div class="thumbnail"><img class="left" src={featuredImg}/></div>
               <div class="right">
                 <h2><Link to={`/blog${node.fields.slug}`}> {title} </Link></h2>
                 <div class="author"><img src="https://randomuser.me/api/portraits/men/95.jpg"/>
@@ -62,14 +64,7 @@ class Blog extends React.Component {
         
         <div class="column is-1-mobile is-1-tablet is-1-desktop is-1-widescreen is-1-fullhd"></div>   
         </div> 
-        <br />
-        <br />
-        <div  class="columns is-mobile">
-        <div class="column is-2"></div>
-        <div class="column is-7"><Bio /></div>
-        <div class="column is-3"></div>        
-        </div>
-        
+               
       </Layout>
     )
   }
@@ -95,6 +90,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            featuredimage
           }
         }
       }
