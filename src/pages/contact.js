@@ -3,6 +3,8 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Contactheader from "../../static/contact-header.jpg"
+
 
 class ContactPage extends React.Component {
   render() {
@@ -13,7 +15,7 @@ class ContactPage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="Contact" />
         <figure class="image is-fullwidth">
-       <img style={{marginTop: '5.2rem'}} src="./contact-header.jpg" />
+       <img style={{marginTop: '5.2rem'}} src={Contactheader} />
     </figure>   
  
 
