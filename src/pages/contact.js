@@ -21,7 +21,7 @@ class ContactPage extends React.Component {
 
      <div class="columns is-mobile is-vcentered">
       <div class="column is-3"></div>
-      <div class="column is-6"><h1>Get in touch</h1></div> 
+      <div class="column is-6" style={{ width: '100%'}}><h1>Get in touch</h1></div> 
       <div class="column is-3"></div>  
      </div>
     

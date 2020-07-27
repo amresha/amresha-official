@@ -13,7 +13,7 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.mdx
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
-
+    const featuredImg = '../../' + post.frontmatter.featuredimage
     return (
       <Layout location={this.props.location} title="">
         <SEO
@@ -26,8 +26,13 @@ class BlogPostTemplate extends React.Component {
         <h1 style={{
             ...scale(3 / 5),
             display: `block`,
-            marginBottom: rhythm(1),
-            marginTop: rhythm(2.5),
+            marginTop: rhythm(3.5),
+            paddingBottom: '18px',
+            fontSize: '4rem',
+            fontWeight: '700',
+            fontFamily: 'sans-serif,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue',
+            color: '#340159',
+            textAlign: 'center',
           }}>{post.frontmatter.title}</h1>
         <p
           style={{
@@ -35,10 +40,12 @@ class BlogPostTemplate extends React.Component {
             display: `block`,
             marginBottom: rhythm(1),
             marginTop: rhythm(-1),
+            textAlign: 'center',
           }}
         >
           {post.frontmatter.date}
         </p>
+        <div style={{textAlign: 'center'}}><img style={{width: '70%', borderRadius: '1%'}} src= {featuredImg}/></div>
         <MDXRenderer>{post.body}</MDXRenderer>
         
         <hr
@@ -98,6 +105,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        featuredimage
       }
     }
   }

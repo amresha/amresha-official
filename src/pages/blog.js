@@ -5,6 +5,9 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import '../templates/blog-style.css'
+import Blogheader from "../../static/blog-header.jpg"
+import avatar from "../../static/amresha.png"
+
 
 class Blog extends React.Component {
   render() {
@@ -19,7 +22,7 @@ class Blog extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" /> 
         <figure class="image is-fullwidth">
-       <img style={{marginTop: '5.2rem'}} src="./blog-header.jpg" />
+       <img style={{marginTop: '5.2rem'}} src={Blogheader} />
     </figure>        
 
         <div  class="columns is-mobile">
@@ -40,8 +43,8 @@ class Blog extends React.Component {
               <div class="thumbnail"><img class="left" src={featuredImg}/></div>
               <div class="right">
                 <h2><Link to={`/blog${node.fields.slug}`}> {title} </Link></h2>
-                <div class="author"><img src="https://randomuser.me/api/portraits/men/95.jpg"/>
-                  <h5>Igor MARTY</h5>
+                <div class="author"><img src={avatar}/>
+                  <h5>Amresha Official</h5>
                 </div>
                 <h4>{day}</h4><br />
               <h6>{month}</h6><br /><br />

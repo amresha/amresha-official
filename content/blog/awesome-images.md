@@ -5,7 +5,6 @@ title: Awesome Images
 description: Fix for gatsby-plugin-mdx and gatsby-remark-images
 featuredimage: ./img/great2.jpg
 ---
-![Great Gatsby](/../assets/great2.jpg "Great Gatsby")
 
 ## Netlify CMS Media Configuration
 

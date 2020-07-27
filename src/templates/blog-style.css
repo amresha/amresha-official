@@ -837,3 +837,19 @@ a:hover{
 .ril__navButtons{
   height:100%!important;
 }
+
+.social{
+text-align: center;
+
+}
+
+p a {
+  border-bottom: none;
+  background-image: linear-gradient(0deg,#e0aaff66 0,#e0aaff66 20%,transparent 15%,transparent);
+  font-weight: 700;
+}
+
+p a:hover {
+  border-bottom: none;
+  background-image: linear-gradient(0deg,#57356be1 0,#57356be1 25%,transparent 20%,transparent);
+}

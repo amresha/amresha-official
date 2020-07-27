@@ -30,7 +30,7 @@ function Bio() {
                 minWidth: 75,
                 borderRadius: `100%`,
                 width: `4%`,
-                height: 'auto',
+                height: 75,
               }}
               
             />

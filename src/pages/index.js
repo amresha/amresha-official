@@ -62,20 +62,18 @@ for (let i = 4; i < 18; i++) {
       </p>
       
 <p class="title">build super fast websites that boost sales.</p>
-<p>These days I am working a lot on WordPress/Woocommerce migration to ReactJS powered websites and enhancing my tech skills by continuosly learning modern web technology.
+<p style={{fontSize: "1.5rem"}}>These days I am focusing on <a href="">JAMSTACK</a>, working especially on WordPress/Woocommerce migration to ReactJS powered websites and enhancing my tech skills by continuosly learning modern web technology.
 </p>
 <p className="title is-5">Lets connect and build something awesome  <span role="img" aria-label="heart emoji">
           ❤️
             </span> </p>
-              <div class="columns is-mobile is-gapless">
-              <div class="column is-1"><img style={{ width: '50%', margin: 0 }} src="./linkedin.svg" alt="LinkedIn" /> </div>
-              <div class="column is-1"><img style={{width: '50%', margin: 0 }} src="./instagram.svg" alt="Instagram" /></div>
-              <div class="column is-1"><img style={{ width: '50%', margin: 0 }} src="./twitter.svg" alt="Twitter" /></div>
-              <div class="column is-1"><img style={{ width: '50%', margin: 0 }} src="./github.svg" alt="GitHub" /></div>
+              <div class="columns is-mobile is-centered" style={{ width: "60%" }}>
+              <div class="column is-3"><a href="https://www.linkedin.com/in/bux-amresha/" target="blank"><img style={{ height: '50px', selfAlign: 'center'}} src="./linkedin.svg" alt="LinkedIn" />  </a></div>
+              <div class="column is-3"><a href="https://www.instagram.com/amresha.official/" target="blank"><img style={{ height: '50px' }} src="./instagram.svg" alt="Instagram" /></a></div>
+              <div class="column is-3"><a href="https://twitter.com/amreshabux" target="blank"><img style={{ height: '50px'}} src="./twitter.svg" alt="Twitter" /></a></div>
+              <div class="column is-3"><a href="https://github.com/amresha" target="blank"><img style={{ height: '50px'}} src="./github.svg" alt="GitHub" /></a></div>
             </div>
-        <Link to="/blog/">
-          <Button marginTop="35px">Go to Blog</Button>
-        </Link>
+       
             </div>
           </div>
 
