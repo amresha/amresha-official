@@ -21,18 +21,19 @@ class BlogPostTemplate extends React.Component {
           description={post.frontmatter.description || post.excerpt}
         />
         <div  class="columns is-mobile">
-        <div class="column is-1"></div>     
-        <div class="column is-10">   
+        <div class="column is-2"></div>     
+        <div class="column is-8">   
         <h1 style={{
             ...scale(3 / 5),
             display: `block`,
             marginTop: rhythm(3.5),
             paddingBottom: '18px',
-            fontSize: '4rem',
+            fontSize: '3.7rem',
             fontWeight: '700',
             fontFamily: 'sans-serif,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue',
             color: '#340159',
             textAlign: 'center',
+            lineHeight: '4rem',
           }}>{post.frontmatter.title}</h1>
         <p
           style={{
@@ -45,7 +46,7 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date}
         </p>
-        <div style={{textAlign: 'center'}}><img style={{width: '70%', borderRadius: '1%'}} src= {featuredImg}/></div>
+        <div style={{textAlign: 'center'}}><img style={{width: '85%', borderRadius: '1%'}} src= {featuredImg}/></div>
         <MDXRenderer>{post.body}</MDXRenderer>
         
         <hr
@@ -66,21 +67,21 @@ class BlogPostTemplate extends React.Component {
         >
           <li>
             {previous && (
-              <Link to={`/blog${previous.fields.slug}`} rel="prev">
+              <Link to={`${previous.fields.slug}`} rel="prev">
                 ← {previous.frontmatter.title}
               </Link>
             )}
           </li>
           <li>
             {next && (
-              <Link to={`/blog${next.fields.slug}`} rel="next">
+              <Link to={`${next.fields.slug}`} rel="next">
                 {next.frontmatter.title} →
               </Link>
             )}
           </li>
         </ul>
         </div>
-        <div class="column is-1"></div>   
+        <div class="column is-2"></div>   
         </div>
       </Layout>
     )

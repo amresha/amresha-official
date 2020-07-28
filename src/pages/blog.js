@@ -42,7 +42,7 @@ class Blog extends React.Component {
               <div class="card">
               <div class="thumbnail"><img class="left" src={featuredImg}/></div>
               <div class="right">
-                <h2><Link to={`/blog${node.fields.slug}`}> {title} </Link></h2>
+                <h2><Link to={`${node.fields.slug}`}> {title} </Link></h2>
                 <div class="author"><img src={avatar}/>
                   <h5>Amresha Official</h5>
                 </div>
