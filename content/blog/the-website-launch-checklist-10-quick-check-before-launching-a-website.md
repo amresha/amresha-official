@@ -27,8 +27,6 @@ featuredimage: img/10-quick-check-before-launching-a-website.png
 6. ## Audit Site SEO
 
    Review your pages and blog posts, ensure each page has a unique page title, meta description and optimised for single or set of keywords specific to your industry. To speed up this process you can also use SEO Audit tools provided by [SEMRUSH](https://www.semrush.com/lp/site-audit-do/en/?ref=1069449657&utm_campaign=landing_site_audit&utm_source=berush&utm_medium=promo&utm_term=93).
-
-   <iframe src="https://pm.berush.com/widgets/site-audit-interactive/?ref=1069449657&utm_campaign=widget_site_audit_widget&utm_source=berush&utm_medium=promo&utm_term=12&new_window=true&color=55&lang=en" frameborder="0" scrolling="no" width="100%" height="190" />
 7. ## Set up analytics
 
    It is extremely important to capture web data and analytics as it enables you to examine your website performance and visitors engagement. To do this you can use [Google Analytics](https://analytics.google.com/analytics/web/#/) a comprehensive analytical tool which provides detail statistics that includes the audience demographics, the time visitors spend on your website and which pages they visit the most.
