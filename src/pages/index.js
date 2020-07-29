@@ -27,7 +27,7 @@ for (let i = 4; i < 18; i++) {
       <Layout location={this.props.location} >
         <SEO
           title="Home"
-          keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+          keywords={[`blog`, `gatsby`, `amresha`, `front-end developer`]}
         />
         
         <div class="tile is-ancestor">
@@ -40,7 +40,7 @@ for (let i = 4; i < 18; i++) {
             </span> I'm Amresha
             </h1>              
             </div>
-            <div class="tile is-child box">
+            <div class="tile is-child box" style={{marginTop: '-100px'}}>
             
               <p class="title">
               <h1>A Front-End Engineer and A Web Consultant, who likes to help</h1>
@@ -62,17 +62,6 @@ for (let i = 4; i < 18; i++) {
       </p>
       
 <p class="title">build super fast websites that boost sales.</p>
-<p style={{fontSize: "1.5rem"}}>These days I am focusing on <a href="">JAMSTACK</a>, working especially on WordPress/Woocommerce migration to ReactJS powered websites and enhancing my tech skills by continuosly learning modern web technology.
-</p>
-<p className="title is-5">Lets connect and build something awesome  <span role="img" aria-label="heart emoji">
-          ❤️
-            </span> </p>
-              <div class="columns is-mobile is-centered" style={{ width: "60%" }}>
-              <div class="column is-3"><a href="https://www.linkedin.com/in/bux-amresha/" target="blank"><img style={{ height: '50px', selfAlign: 'center'}} src="./linkedin.svg" alt="LinkedIn" />  </a></div>
-              <div class="column is-3"><a href="https://www.instagram.com/amresha.official/" target="blank"><img style={{ height: '50px' }} src="./instagram.svg" alt="Instagram" /></a></div>
-              <div class="column is-3"><a href="https://twitter.com/amreshabux" target="blank"><img style={{ height: '50px'}} src="./twitter.svg" alt="Twitter" /></a></div>
-              <div class="column is-3"><a href="https://github.com/amresha" target="blank"><img style={{ height: '50px'}} src="./github.svg" alt="GitHub" /></a></div>
-            </div>
        
             </div>
           </div>
@@ -100,16 +89,28 @@ for (let i = 4; i < 18; i++) {
     <code style={{ backgroundColor: "white" }}><img style={{ margin: 0 }} src="./hi.jpg" alt="Hi" /><img style={{ margin: 0 }} src="./ciao.jpg" alt="Ciao" /></code>
   </div>
   
-</div>
-
-
-            
-            
-              <p class="title"></p>
-              
+</div>              
             </div>
           </div>
         </div>
+
+      <div class="columns" style={{paddingLeft: '20px', paddingRight: '20px', marginTop: '50px'}}>
+      <div class="column is-6"><p style={{fontSize: "1.5rem"}}>These days I am focusing on <a href="">JAMSTACK</a>, working especially on WordPress/Woocommerce migration to ReactJS powered websites and enhancing my tech skills by continuosly learning modern web technology.
+</p>
+<p className="title is-5">Lets connect and build something awesome  <span role="img" aria-label="heart emoji">
+          ❤️
+            </span> </p>
+              <div class="columns is-mobile is-centered" style={{ width: "60%" }}>
+              <div class="column is-3"><a href="https://www.linkedin.com/in/bux-amresha/" target="blank"><img style={{ height: '50px', selfAlign: 'center'}} src="./linkedin.svg" alt="LinkedIn" />  </a></div>
+              <div class="column is-3"><a href="https://www.instagram.com/amresha.official/" target="blank"><img style={{ height: '50px' }} src="./instagram.svg" alt="Instagram" /></a></div>
+              <div class="column is-3"><a href="https://twitter.com/amreshabux" target="blank"><img style={{ height: '50px'}} src="./twitter.svg" alt="Twitter" /></a></div>
+              <div class="column is-3"><a href="https://github.com/amresha" target="blank"><img style={{ height: '50px'}} src="./github.svg" alt="GitHub" /></a></div>
+            </div>
+ </div>
+      <div class="column is-6"> </div>  
+      </div>
+
+
 
        <div class="columns is-centered is-vcentered" style={{backgroundColor: '#2e1f3d', color:'white',  height: '80px', textAlign: 'center', marginBottom: 'none'}}>
        <div class="column is-vcentered">
