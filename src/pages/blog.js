@@ -25,11 +25,16 @@ class Blog extends React.Component {
        <img style={{marginTop: '5.2rem'}} src={Blogheader} />
     </figure>        
 
-        <div  class="columns is-mobile">
-        <div class="column is-1-mobile is-one-fifth-tablet is-2-desktop is-one-quarter-widescreen is-one-fifth-fullhd"></div>     
-        <div class="column is-10-mobile is-four-fifths-tablet is-three-quarters-desktop is-half-widescreen is-half-fullhd is-left">   
-        
-          {posts.map(({ node }) => {
+    <div class="container">
+      <div class="section">
+        <div class="columns">
+          <div class="column has-text-centered">
+            <h1 class="title">Welcome to my blog post</h1>
+          </div>
+        </div>
+       
+        <div id="app" class="row columns is-multiline">
+        {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             const featuredImg = node.frontmatter.featuredimage
 
@@ -38,35 +43,41 @@ class Blog extends React.Component {
             const day= postDate.toLocaleString('default', { day: '2-digit' })
             const year= postDate.toLocaleString('default', { year: 'numeric' })
             return (
-              
-              <div class="card">
-              <div class="thumbnail"><img class="left" src={featuredImg}/></div>
-              <div class="right">
-                <h2><Link to={`${node.fields.slug}`}> {title} </Link></h2>
-                <div class="author"><img src={avatar}/>
-                  <h5>Amresha Official</h5>
+          <div class="column is-4 is-two-thirds-tablet">
+            <div class="card large">
+              <div class="card-image is-16by9">
+                <figure class="image">
+                  <img src={featuredImg} alt="Image" />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img src={avatar} alt="Image" />
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <h2 class="title is-4 no-padding"><Link to={`${node.fields.slug}`}> {title} </Link></h2>
+                                     
+                  </div>
                 </div>
-                <h4>{day}</h4><br />
-              <h6>{month}</h6><br /><br />
-                <div class="separator"></div>
+                <div class="content">
                 <p
                   dangerouslySetInnerHTML={{
                     __html: node.frontmatter.description || node.excerpt,
                   }}
                 />
+                 </div>
               </div>
-              
-              <br /><br />
-              <div class="fab" style={{color: 'white'}}><Link to={`/blog${node.fields.slug}`}> <div class="readmore">Read more</div></Link></div>
-              
-            </div>            
-            )
-          })}
-          
+            </div>
+          </div>
+               )
+              })}
         </div>
-        
-        <div class="column is-1-mobile is-1-tablet is-1-desktop is-1-widescreen is-1-fullhd"></div>   
-        </div> 
+     
+      </div>
+    </div>
                
       </Layout>
     )

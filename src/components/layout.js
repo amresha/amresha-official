@@ -68,10 +68,11 @@ class Layout extends React.Component {
         <Footer>
           © {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
           <span role="img" aria-label="heart emoji">
           ❤️
-            </span>
+           </span>
+           {` `}
+         in React and NodeJS
         </Footer>
       </Wrapper>
     )

@@ -74,10 +74,16 @@ box-shadow: none;
   a {
   box-shadow: none;
   }
-
+  @media only screen and (min-width: 280px) {
+    .TypistExample-header {
+      font-size: 0.85em!important;
+      line-height: 1em!important;
+    }
+  }
  @media only screen and (min-width: 320px) {
     .TypistExample-header {
-      font-size: 1.5em!important;
+      font-size: 0.85em!important;
+      line-height: 1em!important;
     }
     .navbar{
       margin: auto;
@@ -119,8 +125,9 @@ box-shadow: none;
     top: -20%!important;
     width: 100%;
     }
-
-    
+    row{
+      display: block!important;
+    }
   }
 
   @media only screen and (min-width: 1024px) {
@@ -165,10 +172,28 @@ box-shadow: none;
         padding-left: 4.5%!important;
         letter-spacing: normal;
         }
+
+
   }
 
-.TypistExample {
 
+  @media only screen and (min-width: 768px) {
+    .card{
+      height: 550px!important;
+    }    
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .card{
+      height: 450px!important;
+    }    
+  }
+
+  .TypistExample-header {
+    font-size: 4em!important;
+    font-weight: 700!important;
+  }
+.TypistExample {
  
   a {
 
@@ -314,3 +339,4 @@ form {
   max-height: 80%!important;
   max-width: 80%!important;
 }
+
