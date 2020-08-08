@@ -16,7 +16,7 @@ Make sure the content is accurate and has been proofread for spelling and gramma
 
 Don’t be lazy! check that all the hyperlinks internal and external both are working. Check that all social media icons are associated with the correct accounts.
 
-3. ## Inspect all images [](https://emojipedia.org/openmoji/12.3/framed-picture/)**![Framed Picture](https://lh4.googleusercontent.com/9FlwdEF0elO-R3svSl6iBpMRzUt0v7IGW-SY148ByuBKn98S28qFVwT5NKPCJvjg7XzkhT-g4hMogN6UYznIXLy43Lvg7WrnPMmB_A4HHeikby9Efdr-_AiHcy7En9rvCe36aGB7 "Framed Picture")**
+3. ## Inspect all images[](https://emojipedia.org/openmoji/12.3/framed-picture/)**![Framed Picture](https://lh4.googleusercontent.com/9FlwdEF0elO-R3svSl6iBpMRzUt0v7IGW-SY148ByuBKn98S28qFVwT5NKPCJvjg7XzkhT-g4hMogN6UYznIXLy43Lvg7WrnPMmB_A4HHeikby9Efdr-_AiHcy7En9rvCe36aGB7 "Framed Picture")**
 
 Ensure images are in place with an appropriate size, loading swiftly and the usage rights are properly cited.
 
@@ -48,7 +48,9 @@ If your website contains contact and newsletter signup forms, you must test them
 
 Lastly, ensure to have a backup copy of your final website which you can utilise it in future in case you experience data loss or corruption due to malicious attack.
 
-## Quick SEO Audit Tool
+## I have a quick SEO Audit Tool 🛠️ for you!
+
+<!--EndFragment-->
 
 <iframe src="https://pm.berush.com/widgets/site-audit-interactive/?ref=1069449657&utm_campaign=widget_site_audit_widget&utm_source=berush&utm_medium=promo&utm_term=12&new_window=true&color=55&lang=en" frameborder="0" scrolling="no" width="100%" height="190" />
 
