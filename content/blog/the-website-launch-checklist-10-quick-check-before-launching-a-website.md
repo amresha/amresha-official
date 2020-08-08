@@ -22,19 +22,13 @@ Ensure images are in place with an appropriate size, loading swiftly and the usa
 
 4. ## Test the site for User Experience (UX) and Responsiveness [![Desktop Computer](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/openmoji/252/desktop-computer_1f5a5.png "Desktop Computer")](https://emojipedia.org/desktop-computer/)
 
-   <!--EndFragment-->
-
 Browse your site on different browsers (Chrome, IE, Opera, Safari, Firefox) and digital devices such as desktop, tablet and mobile to make sure it renders correctly and pages are compatible. If you don’t get time to do this manually, you can try a service like [BrowserStack](https://www.browserstack.com/).
 
 5. ## Speed Test [![High Voltage](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/openmoji/212/high-voltage-sign_26a1.png "High Voltage")](https://emojipedia.org/openmoji/1.0/high-voltage/)
 
-   <!--EndFragment-->
-
 It is essential to obtain an optimum loading speed for your website. To check how it performs do a speed test using the [PageSpeed](https://developers.google.com/speed/pagespeed/insights/) Insights a tool provided by Google.
 
 6. ## Audit Site SEO [![Magnifying Glass Tilted Right](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/openmoji/212/right-pointing-magnifying-glass_1f50e.png "Magnifying Glass Tilted Right")](https://emojipedia.org/openmoji/1.0/magnifying-glass-tilted-right/)
-
-   <!--EndFragment-->
 
 Review your pages and blog posts, ensure each page has a unique page title, meta description and optimised for single or set of keywords specific to your industry. To speed up this process you can also use SEO Audit tools provided by [SEMRUSH](https://www.semrush.com/lp/site-audit-do/en/?ref=1069449657&utm_campaign=landing_site_audit&utm_source=berush&utm_medium=promo&utm_term=93).
 
@@ -44,19 +38,13 @@ It is extremely important to capture web data and analytics as it enables you to
 
 8. ## Build and submit a sitemap [![Globe with Meridians](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/openmoji/252/globe-with-meridians_1f310.png "Globe with Meridians")](https://emojipedia.org/globe-with-meridians/)
 
-   <!--EndFragment-->
-
 Create a dynamic XML Sitemap and don’t forget to submit your sitemap.xml file to search engines. This will provide your site architecture information to search engines as a result page load time is optimised.
 
 9. ## Check forms [![Spiral Notepad](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/openmoji/252/spiral-notepad_1f5d2.png "Spiral Notepad")](https://emojipedia.org/spiral-notepad/)
 
-   <!--EndFragment-->
-
 If your website contains contact and newsletter signup forms, you must test them to check if the contact forms are submitting data properly, thank you message is displayed after form submission and you receive form data on the correct email address. If your signup forms are linked to platforms like MailChimp you must try subscribing with your email address to confirm that you receive all associated automated messages such as welcome emails.
 
 10. ## Website backup [![File Cabinet](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/openmoji/252/file-cabinet_1f5c4.png "File Cabinet")](https://emojipedia.org/file-cabinet/)
-
-    <!--EndFragment-->
 
 Lastly, ensure to have a backup copy of your final website which you can utilise it in future in case you experience data loss or corruption due to malicious attack.
 
