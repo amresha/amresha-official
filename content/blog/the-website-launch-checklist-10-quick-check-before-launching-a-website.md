@@ -1,7 +1,7 @@
 ---
 path: 10-quick-check-before-launching-a-website
 date: 2020-08-08T15:57:52.057Z
-title: 10 Quick Check Before Launching a Website
+title: 10 Quick Checks Before Launching a Website
 description: Follow this website launch checklist and perform 10 quick checks to
   make sure your website is ready to go live!
 featuredimage: img/10-quick-check-before-launching-a-website.png
