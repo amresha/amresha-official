@@ -9,7 +9,7 @@ featuredimage: img/10-impressive-free-illustration-websites-for-your-new-blog-po
 
 Photos look incredible but in certain situations, they probably won’t impeccably portray your brand image and precise message. To overcome this dilemma one can make use of Isometric Illustrations and Vectors to demonstrate the real message they want to convey to their website visitors. Illustrations are all over the web and recently has gained immense popularity as it grabs the user attention instantly.
 
-<iframe src="https://giphy.com/embed/3otPoAAdbeJA97NPJ6" width="480" height="380" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/filmeditor-the-legend-of-sleepy-hollow-3otPoAAdbeJA97NPJ6">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/3otPoAAdbeJA97NPJ6" width="380" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/filmeditor-the-legend-of-sleepy-hollow-3otPoAAdbeJA97NPJ6">via GIPHY</a></p>
 
 To make your life easy I have gathered 10 impressive free Illustration websites that can be used to impress your website visitors and also makes your blog stand out from others.
 
@@ -43,13 +43,13 @@ This website provides a tool to practice your creativity by mix-match diverse ob
 
 Check out these amazing peeps produced by this tool.
 
-\|<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Used <a href="https://twitter.com/pablostanley?ref_src=twsrc%5Etfw">@pablostanley</a>&#39;s Open Peeps library and <a href="https://twitter.com/figmadesign?ref_src=twsrc%5Etfw">@figmadesign</a> (absolute newbie) to create my <a href="https://twitter.com/NotionHQ?ref_src=twsrc%5Etfw">@NotionHQ</a>-inspired icon. THRILLED!<br /><br />One day, my signature cat-eye glasses will be inserted into the image💜🧡💚 <a href="https://t.co/NQYfEeaBri">https://t.co/NQYfEeaBri</a> <a href="https://t.co/FTWW9KA8HJ">pic.twitter.com/FTWW9KA8HJ</a></p>&mdash; Rui Qing (@ruiqing) <a href="https://twitter.com/ruiqing/status/1233236776573001728?ref_src=twsrc%5Etfw">February 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>|
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Used <a href="https://twitter.com/pablostanley?ref_src=twsrc%5Etfw">@pablostanley</a>&#39;s Open Peeps library and <a href="https://twitter.com/figmadesign?ref_src=twsrc%5Etfw">@figmadesign</a> (absolute newbie) to create my <a href="https://twitter.com/NotionHQ?ref_src=twsrc%5Etfw">@NotionHQ</a>-inspired icon. THRILLED!<br /><br />One day, my signature cat-eye glasses will be inserted into the image💜🧡💚 <a href="https://t.co/NQYfEeaBri">https://t.co/NQYfEeaBri</a> <a href="https://t.co/FTWW9KA8HJ">pic.twitter.com/FTWW9KA8HJ</a></p>&mdash; Rui Qing (@ruiqing) <a href="https://twitter.com/ruiqing/status/1233236776573001728?ref_src=twsrc%5Etfw">February 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-\|<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Some plans are meant not be to planned when you are developer 😂<br />My First Developer Stories.. <a href="https://twitter.com/pablostanley?ref_src=twsrc%5Etfw">@pablostanley</a> <a href="https://t.co/4cV2lGac48">pic.twitter.com/4cV2lGac48</a></p>&mdash; shrmaky (@shrmaky) <a href="https://twitter.com/shrmaky/status/1233650428857982981?ref_src=twsrc%5Etfw">February 29, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>|
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Some plans are meant not be to planned when you are developer 😂<br />My First Developer Stories.. <a href="https://twitter.com/pablostanley?ref_src=twsrc%5Etfw">@pablostanley</a> <a href="https://t.co/4cV2lGac48">pic.twitter.com/4cV2lGac48</a></p>&mdash; shrmaky (@shrmaky) <a href="https://twitter.com/shrmaky/status/1233650428857982981?ref_src=twsrc%5Etfw">February 29, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-\|<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/pablostanley?ref_src=twsrc%5Etfw">@pablostanley</a> Worked on <a href="https://twitter.com/hashtag/AmazonGo?src=hash&amp;ref_src=twsrc%5Etfw">#AmazonGo</a> &#39;s liquor checkout using <a href="https://twitter.com/hashtag/openpeeps?src=hash&amp;ref_src=twsrc%5Etfw">#openpeeps</a>. Great tool to make refined storyboards! <a href="https://t.co/fjlPpPPqXb">pic.twitter.com/fjlPpPPqXb</a></p>&mdash; Harika Bommu (@harikabommu) <a href="https://twitter.com/harikabommu/status/1237408254398955522?ref_src=twsrc%5Etfw">March 10, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>|
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/pablostanley?ref_src=twsrc%5Etfw">@pablostanley</a> Worked on <a href="https://twitter.com/hashtag/AmazonGo?src=hash&amp;ref_src=twsrc%5Etfw">#AmazonGo</a> &#39;s liquor checkout using <a href="https://twitter.com/hashtag/openpeeps?src=hash&amp;ref_src=twsrc%5Etfw">#openpeeps</a>. Great tool to make refined storyboards! <a href="https://t.co/fjlPpPPqXb">pic.twitter.com/fjlPpPPqXb</a></p>&mdash; Harika Bommu (@harikabommu) <a href="https://twitter.com/harikabommu/status/1237408254398955522?ref_src=twsrc%5Etfw">March 10, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-\|<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Using them Open Peeps for my school project!! <a href="https://twitter.com/pablostanley?ref_src=twsrc%5Etfw">@pablostanley</a> <br /><br />Absolutely in love!! 😍 <a href="https://t.co/dUQYcUQQEF">pic.twitter.com/dUQYcUQQEF</a></p>&mdash; n i c o l e (@nicolengyw) <a href="https://twitter.com/nicolengyw/status/1237798617219502081?ref_src=twsrc%5Etfw">March 11, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>|
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Using them Open Peeps for my school project!! <a href="https://twitter.com/pablostanley?ref_src=twsrc%5Etfw">@pablostanley</a> <br /><br />Absolutely in love!! 😍 <a href="https://t.co/dUQYcUQQEF">pic.twitter.com/dUQYcUQQEF</a></p>&mdash; n i c o l e (@nicolengyw) <a href="https://twitter.com/nicolengyw/status/1237798617219502081?ref_src=twsrc%5Etfw">March 11, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 [Absurd](https://absurd.design/)
 
@@ -61,15 +61,11 @@ DrawKit is a collection of customisable MIT licensed SVG vector illustration and
 
 [Undraw](https://undraw.co/)
 
-unDraw is a collection of beautifully designed svg images that you can use absolutely free and it not even requires any attribution. Moreover, it offers an exciting feature“on-the-fly color image generation”that allows you to change the image color instantly to match your brand identity.
+unDraw is a collection of beautifully designed svg images that you can use absolutely free and it not even requires any attribution. Moreover, it offers an exciting feature“on-the-fly color image generation” that allows you to change the image color instantly to match your brand identity.
 
 ## Now here is a bonus one!
 
-![](img/bonus.webp)
-
-```
-https://media.giphy.com/media/rhfxbPtm4m5uo/source.gif
-```
+<div style="width:100%;height:0;padding-bottom:78%;position:relative;"><iframe src="https://giphy.com/embed/rhfxbPtm4m5uo" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/win-rhfxbPtm4m5uo">via GIPHY</a></p>
 
 [IsoFlat](https://isoflat.com/)
 
