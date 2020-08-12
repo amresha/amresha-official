@@ -28,12 +28,12 @@ class BlogPostTemplate extends React.Component {
             display: `block`,
             marginTop: rhythm(3.5),
             paddingBottom: '18px',
-            fontSize: '3.7rem',
+            fontSize: '2.7rem',
             fontWeight: '700',
             fontFamily: 'sans-serif,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue',
             color: '#340159',
             textAlign: 'center',
-            lineHeight: '4rem',
+            lineHeight: '3rem',
           }}>{post.frontmatter.title}</h1>
         <p
           style={{
