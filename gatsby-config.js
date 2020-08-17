@@ -18,6 +18,7 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-material-ui`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-twitter`,
     `react-images`,
     'gatsby-plugin-scss-typescript',
     'react-native-animatable',

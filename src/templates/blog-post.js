@@ -21,8 +21,8 @@ class BlogPostTemplate extends React.Component {
           description={post.frontmatter.description || post.excerpt}
         />
         <div  class="columns is-mobile">
-        <div class="column is-2"></div>     
-        <div class="column is-8">   
+        <div class="column is-1"></div>     
+        <div class="column is-10">   
         <h1 style={{
             ...scale(3 / 5),
             display: `block`,
@@ -81,7 +81,7 @@ class BlogPostTemplate extends React.Component {
           </li>
         </ul>
         </div>
-        <div class="column is-2"></div>   
+        <div class="column is-1"></div>   
         </div>
       </Layout>
     )
