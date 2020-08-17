@@ -7,6 +7,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { DiscussionEmbed } from 'disqus-react'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -14,6 +15,16 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
     const featuredImg = '../../' + post.frontmatter.featuredimage
+    const siteUrl = 'https://amresha.netlify.app/' + post.frontmatter.title
+    const disqusprops = {
+      shortname: `amresha`,
+      config: { 
+        url: siteUrl,
+        identifier: post.frontmatter.title,
+        title: post.frontmatter.title,    
+      },
+    };
+    console.log(siteUrl)
     return (
       <Layout location={this.props.location} title="">
         <SEO
@@ -83,6 +94,16 @@ class BlogPostTemplate extends React.Component {
         </div>
         <div class="column is-1"></div>   
         </div>
+
+        <div  class="columns is-mobile">
+        <div class="column is-1"></div> 
+        <div class="column is-10">
+        <DiscussionEmbed
+    shortname={disqusprops.shortname}
+    config={disqusprops.config}
+    /></div>  
+    <div class="column is-1"></div> 
+    </div>
       </Layout>
     )
   }

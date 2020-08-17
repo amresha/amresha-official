@@ -9,7 +9,8 @@ featuredimage: img/10-impressive-free-illustration-websites-for-your-new-blog-po
 
 Photos look incredible but in certain situations, they probably won’t impeccably portray your brand image and precise message. To overcome this dilemma one can make use of Isometric Illustrations and Vectors to demonstrate the real message they want to convey to their website visitors. Illustrations are all over the web and recently has gained immense popularity as it grabs the user attention instantly.
 
-![Via GIPHY](../img/attention.gif)
+<img src="../img/attention.gif" width="600px" alt="Via GIPHY" />
+
 
 To make your life easy I have gathered 10 impressive free Illustration websites that can be used to impress your website visitors and also makes your blog stand out from others.
 
@@ -85,7 +86,7 @@ unDraw is a collection of beautifully designed svg images that you can use absol
 
 ## Now here is a bonus one!
 
-![via GIPHY](../img/bonus.gif)
+<img src="../img/bonus.gif" width="600px" alt="Via GIPHY"/>
 
 [IsoFlat](https://isoflat.com/)
 
