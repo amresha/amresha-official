@@ -20,7 +20,12 @@ class Blog extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="All posts" /> 
+        <SEO
+          title="Amresha | All posts"
+          keywords={[`blog`, `web design`, `amresha`, `front-end`]}
+          description="Learn about latest web design trends and technologies"
+        />
+
         <figure class="image is-fullwidth">
        <img style={{marginTop: '5.2rem'}} src={Blogheader} />
     </figure>        

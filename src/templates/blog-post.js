@@ -8,6 +8,7 @@ import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { DiscussionEmbed } from 'disqus-react'
+import { Helmet } from 'react-helmet'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -31,6 +32,25 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
+         <Helmet titleTemplate="%s | Blog">
+            <title>{`${post.frontmatter.title}`}</title>
+            <meta
+              name="description"
+              content={`${post.frontmatter.description}`}
+            />
+             <meta name="image" content={`https://amresha.netlify.app/` + `${post.frontmatter.featuredimage}`} />
+             <meta property="og:image" content={`https://amresha.netlify.app/` + `${post.frontmatter.featuredimage}`} />
+             <meta property="og:title" content={`${post.frontmatter.title}`} />
+             <meta property="og:description" content={`${post.frontmatter.description}`} />
+             <meta property="og:url" content={`https://amresha.netlify.app/` + `${post.frontmatter.title}`} />
+             <meta property="og:site_name" content="https://amresha.netlify.app/" />
+             <meta property="article:author" content="Amresha" />
+             <meta name="twitter:title" content={`${post.frontmatter.title}`} />
+             <meta name="twitter:url" content={`https://amresha.netlify.app/` + `${post.frontmatter.title}`} />
+             <meta name="twitter:description" content={`${post.frontmatter.description}`} />
+             <meta name="twitter:card" content="summary_large_image" />
+	        	 <meta name="twitter:image" content={`https://amresha.netlify.app/` + `${post.frontmatter.featuredimage}`} />
+          </Helmet>
         <div  class="columns is-mobile">
         <div class="column is-1"></div>     
         <div class="column is-10">   

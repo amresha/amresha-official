@@ -57,10 +57,22 @@ class Layout extends React.Component {
         href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <meta property="og:type" content="business.business" />
+        <meta property="og:title" content={title} />
+        <meta property="og:url" content="/" />
+        <meta
+          property="og:image"
+          content="../img/og-image.jpg"
+        />
+
+             <meta name="twitter:title" content={`${title}`} />
+             <meta name="twitter:url" content={`https://amresha.netlify.app/` + `${title}`} />
+             <meta name="twitter:description" content="Currently focusing on JAMSTACK and ReactJS powered websites." />
+             <meta name="twitter:card" content="summary_large_image" />
+	        	 <meta name="twitter:image" content="../img/og-image.jpg" />
         </Helmet>
-        <div
-         
-        ><NavBar />
+        <div>
+          <NavBar />
           <header>{header}</header>
           
           <main>{children}</main>

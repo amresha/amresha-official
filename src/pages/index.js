@@ -26,8 +26,9 @@ for (let i = 4; i < 18; i++) {
     return (
       <Layout location={this.props.location} >
         <SEO
-          title="Home"
+          title="Amresha | A Front-end Engineer"
           keywords={[`blog`, `gatsby`, `amresha`, `front-end developer`]}
+          description="Currently focusing on JAMSTACK and ReactJS powered websites."
         />
         
         <div class="tile is-ancestor">
@@ -103,7 +104,7 @@ for (let i = 4; i < 18; i++) {
               <div class="columns is-mobile is-centered" style={{ width: "60%" }}>
               <div class="column is-3"><a href="https://www.linkedin.com/in/bux-amresha/" target="blank"><img style={{ height: '50px', selfAlign: 'center'}} src="./linkedin.svg" alt="LinkedIn" />  </a></div>
               <div class="column is-3"><a href="https://www.instagram.com/amresha.official/" target="blank"><img style={{ height: '50px' }} src="./instagram.svg" alt="Instagram" /></a></div>
-              <div class="column is-3"><a href="https://twitter.com/amreshabux" target="blank"><img style={{ height: '50px'}} src="./twitter.svg" alt="Twitter" /></a></div>
+              <div class="column is-3"><a href="https://twitter.com/amreshaofficial" target="blank"><img style={{ height: '50px'}} src="./twitter.svg" alt="Twitter" /></a></div>
               <div class="column is-3"><a href="https://github.com/amresha" target="blank"><img style={{ height: '50px'}} src="./github.svg" alt="GitHub" /></a></div>
             </div>
  </div>
