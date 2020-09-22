@@ -13,7 +13,11 @@ class ContactPage extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="Contact" />
+          <SEO
+          title="Amresha | Contact"
+          keywords={[`amresha`, `contact`]}
+          description="Contact me to build an interactive website."
+        />
         <figure class="image is-fullwidth">
        <img style={{marginTop: '5.2rem'}} src={Contactheader} />
     </figure>   
